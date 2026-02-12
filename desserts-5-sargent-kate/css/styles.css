@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(138, 142, 141)
+}
+img {
+    width:300px;
+    padding-top:20px;
+}
+h1 {
+    width:auto;
+    text-align:center;
+}
+p {
+    margin:auto;
+    text-align:center;
+    width:300px;
+}
+#topDiv {
+    background-color: rgb(164, 164, 203);
+}
+#mainDiv {
+    background-color: rgb(168, 207, 217);
+    color:black;
+    width:60%;
+    margin:auto;
+}
+#explanation {
+    background-color: rgb(156, 148, 165);
+    color:rgb(0, 0, 0);
+    text-align:center;
+    width:75%;
+    height:500px;
+    margin:auto;
+}
+nav {
+    border:solid black;
+}

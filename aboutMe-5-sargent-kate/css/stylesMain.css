@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(57, 63, 70)
+}
+img {
+    width:350px;
+    padding-top:20px;
+}
+h1 {
+    width:auto;
+    text-align:center;
+}
+h4 {
+    margin:auto;
+    width:300px;
+    color:black;
+}
+#topDiv {
+    background-color: rgb(108, 108, 131);
+    color:black;
+}
+#mainDiv {
+    background-color: rgb(168, 207, 217);
+    color:black;
+    width:60%;
+    margin:auto;
+}
+#paragraphsDiv {
+    background-color: rgb(156, 148, 165);
+    color:black;
+    text-align:center;
+    width:75%;
+    height:500px;
+    margin:auto;
+}
+#links {
+    width:auto;
+    text-align:center;
+}
+nav a {
+    width:100px;
+    height:auto;
+    padding:0 50px;
+}
+#paragraph1 {
+    background-color: rgb(200, 200, 235);
+    width:50%;
+    float:left;
+}
+#paragraph2 {
+    background-color:rgb(213, 179, 213);
+    width:50%;
+    float:right;
+}
+nav {
+    border:solid black;
+}
+nav a:hover {
+    background-color:rgb(69, 69, 79);
+    color:rgb(178, 148, 206);
+}
+header {
+    width:75%;
+    text-align:center;
+    margin:auto;
+}

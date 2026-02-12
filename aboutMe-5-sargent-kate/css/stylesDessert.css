@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(138, 142, 141)
+}
+img {
+    width:300px;
+    padding-top:20px;
+}
+h1 {
+    width:auto;
+    text-align:center;
+}
+p {
+    margin:auto;
+    text-align:center;
+    width:400px;
+}
+#topDiv {
+    background-color: rgb(164, 164, 203);
+}
+#mainDiv {
+    background-color: rgb(168, 207, 217);
+    color:black;
+    width:60%;
+    margin:auto;
+}
+#explanation {
+    background-color: rgb(156, 148, 165);
+    color:rgb(0, 0, 0);
+    text-align:center;
+    width:60%;
+    height:500px;
+    margin:auto;
+}
+nav {
+    border:solid rgb(73, 56, 91);
+}
+nav a {
+    width:100px;
+    height:auto;
+    padding:0 50px;
+}
+#links {
+    width:auto;
+    text-align:center;
+}
+header {
+    width:75%;
+    text-align:center;
+    margin:auto;
+}
+nav a:hover {
+    background-color:rgb(174, 174, 203);
+}
