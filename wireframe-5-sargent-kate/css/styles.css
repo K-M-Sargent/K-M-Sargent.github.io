@@ -1,0 +1,32 @@
+p {
+    color:gray;
+    float:center;
+}
+#toplinks {
+    background-color:red;
+}
+#picture1info {
+    background-color:orange;
+    width:48%;
+    height:250px;
+    float: left;
+}
+#picture2info {
+    background-color:yellow;
+    width:48%;
+    height:300px;
+    float:right;
+}
+#picture3info {
+    background-color:green;
+    width:50%;
+    height:300px;
+    float:right;
+}
+#listoffactsinfo {
+    background-color:blue;
+    width:50%;
+}
+#bottomlinks {
+    background-color:purple;
+}
