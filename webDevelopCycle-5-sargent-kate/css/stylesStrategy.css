@@ -1,0 +1,44 @@
+#title {
+    float:left;
+    padding-left:5%;
+    margin:auto;
+    background-color:rgb(139, 185, 139);
+    width:75%;
+}
+
+#paragraph1 {
+    float:left;
+    text-align: center;
+    width:200px;
+    margin:auto;
+}
+img {
+    width:250px;
+    float:left;
+    margin:auto;
+}
+#mainPage {
+    margin:auto;
+}
+#navBar {
+    width:100px;
+    background-color:rgb(131, 131, 154);
+    float:left;
+    height:1200px;
+}
+#bottomDiv h2 {
+    float:left;
+    padding-left:5%;
+    margin:auto;
+    background-color:rgb(185, 144, 139);
+    width:75%;
+}
+#bottomDiv li {
+    float:left;
+    padding-left:10%;
+    margin:auto;
+    width:75%;
+}
+nav a:hover {
+    background-color:rgb(139, 104, 99);
+}
