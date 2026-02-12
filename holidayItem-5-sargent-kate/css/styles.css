@@ -1,0 +1,40 @@
+#topDiv {
+    background-color:rgb(133, 93, 54);
+    height:500px;
+    margin:0%;
+    padding:0%;
+}
+div.diagonal {
+    width: 0px;
+    height: 0px;
+    border-right: 100vw solid transparent;
+    border-bottom: 13.9vw solid rgb(223, 199, 166);
+    margin-top: -13.9vw;
+}
+#bottomDiv {
+    background-color:rgb(223, 199, 166);
+    height:500px;
+    margin:0%;
+    padding:0%;
+}
+img {
+    max-width:340px;
+    max-height: 300px;
+}
+h1.center {
+    position:absolute;
+    font-size:70px;
+    top:42vh;
+    left:40vw;
+    color:black;
+}
+h2 {
+    color:rgb(59, 31, 7);
+    margin:0%;
+    font-size:50px;
+    width:50%;
+}
+header {
+    margin:auto;
+    padding:15px;
+}
