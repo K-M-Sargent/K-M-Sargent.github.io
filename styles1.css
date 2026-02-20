@@ -4,6 +4,9 @@ a.btn{
     border-radius: 30px;
     background-color: aquamarine;
     display: block;  
+    float:left;
+    margin:auto;
+    
 }
 header {
     text-align: center;
