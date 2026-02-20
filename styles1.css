@@ -1,11 +1,12 @@
 a.btn{
-    width: 400px;
-    height: 150px;
+    width: 600px;
+    height: 350px;
     border-radius: 30px;
     background-color: aquamarine;
     display: block;  
     float:left;
-    margin:25%;
+    margin:20%;
+    padding:15px;
     
 }
 header {
