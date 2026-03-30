@@ -90,3 +90,8 @@ a {
 .post p {
     float:left
 }
+.post img {
+    float:left;
+    margin:auto;
+    max-height:80px;
+}
