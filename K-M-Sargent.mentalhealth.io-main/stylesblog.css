@@ -75,7 +75,7 @@ a {
     padding-left:15px;
 }
 .postimage {
-    max-height:100px;
+    max-height:80px;
     float:left;
     margin:auto;
 }
@@ -88,5 +88,5 @@ a {
     float:left;
 }
 .post p {
-    float:float:left
+    float:left
 }
