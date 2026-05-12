@@ -6,37 +6,36 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="topmarg" style="background-color:rgb(194, 162, 224); height:150px;">
-            <img src="images/mojoslogo.avif" alt="" style="height:100%; margin:auto; float:left;">
-            <h1 class="molle-regular-italic" style="float:left;">"Coffee for a Cause"</h1>
-            <img src="images/heart.png" alt="" style="width:90px; margin:auto; float:left;">
-            <button style="float:right;">Sign up/log in</button>
-            <nav class="navbar" style="width:100%; background-color:rgb(194, 162, 224);">
-                <form class="container-fluid justify-content-start">
-                  <a class="btn btn-outline-secondary me-2" type="button" href="index.html">Home</a>
-                  <a class="btn btn-sm btn-outline-secondary" type="button" href="about.html">About Us</a>
-                  <a class="btn btn-sm btn-outline-secondary" type="button" href="menu.html">Menu</a>
-                  <a class="btn btn-sm btn-outline-secondary" type="button" href="order.html">Order</a>
-                  <a class="btn btn-sm btn-outline-secondary" type="button" href="contact.html">Contact</a>
-                </form>
-              </nav>
-        </div>
-        <div id="mainbody" style="background-color:rgb(234, 191, 201); width: 100%;">
-            <div id="slider" class="carousel slide" style="width:80%; background-color:rgb(234, 191, 201); margin:auto; padding-top: 10px; text-align:center;">
+      <div class="topmarg" style="background-color:rgb(194, 162, 224); height:150px;">
+        <img src="images/mojoslogo.avif" alt="" style="height:100%; margin:auto; float:left;">
+        <h1 class="molle-regular-italic" style="float:left;">"Coffee for a Cause"</h1>
+        <button style="float:right;">Sign up/log in</button>
+        <nav class="navbar" style="width:100%; background-color:rgb(194, 162, 224);">
+            <form class="container-fluid justify-content-start">
+              <a class="btn btn-outline-secondary me-2" type="button" href="index.html">Home</a>
+              <a class="btn btn-sm btn-outline-secondary" type="button" href="about.html">About Us</a>
+              <a class="btn btn-sm btn-outline-secondary" type="button" href="menu.html">Menu</a>
+              <a class="btn btn-sm btn-outline-secondary" type="button" href="order.html">Order</a>
+              <a class="btn btn-sm btn-outline-secondary" type="button" href="contact.html">Contact</a>
+            </form>
+          </nav>
+    </div>
+        <div id="mainbody" style="background-color:rgb(244, 201, 208); width: 100%; height:1100px; padding-top: 200px;">
+            <div id="slider" class="carousel slide" style="height:80%; max-height:800px; margin:auto; padding-top: 10px; text-align:center;">
                 <h3>Our Menu</h3>
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
+                      <div class="carousel-item active" id="carousel1">
                         <img src="images/menu.png" class="d-block w-100" alt="...">
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item" id="carousel2">
                         <img src="images/foodmenu.png" class="d-block w-100" alt="...">
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item" id="carousel3">
                         <img src="images/signaturemenu.png" class="d-block w-100" alt="...">
                       </div>
                     </div>
@@ -49,7 +48,7 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <h5 style="padding-top:20px; text-align:center; width:80%; padding-bottom: 15px;;">We have many items on our menu, and will try to adjust to any health issues you may have (if possible to do so)!</h5>
+                <h5 style="padding-top:80px; text-align:center; width:80%; padding-bottom: 15px;;">We have many items on our menu, and will try to adjust to any health issues you may have (if possible to do so)!</h5>
             </div>
         </div>
         <div id="footer" style="background-color:rgb(194, 162, 224);">
