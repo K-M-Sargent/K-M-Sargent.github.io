@@ -2,4 +2,59 @@
     font-family: "Molle", cursive;
     font-weight: 600;
     font-style: italic;
-  }
+    padding-top:30px;
+    font-size: 45px;
+}
+.topmarg {
+  background-color:rgb(194, 162, 224);
+  height:100%;
+  margin:auto;
+  float:left;
+  width:100%
+}
+#logo {
+  float:left;
+  height:100%;
+  margin:auto;
+}
+.navbar {
+  width:100%; 
+  background-color:rgb(194, 162, 224);
+}
+#mainbody {
+  background-color:rgb(185, 240, 240); 
+  width: 100%; 
+  height:1000px;
+  padding-top: 100px;
+}
+#chunk1 {
+  width:90%; 
+  background-color:rgb(209, 100, 144); 
+  margin:auto; 
+  padding-top: 10px; 
+  text-align:center;
+  padding-top: 110px;
+}
+#drinksimg {
+  float:left; 
+  padding:15px; 
+  margin:auto;
+}
+#insideimg {
+  padding:15px; margin:auto;
+}
+#slider {
+  width:80%; 
+  background-color:rgb(209, 100, 144); 
+  margin:auto; 
+  padding-top: 10px; 
+  text-align:center;
+}
+#footer {
+  background-color: rgb(194, 162, 224);
+}
+.navbar {
+  width:100%; 
+  background-color:rgb(194, 162, 224);
+  height:50px;
+}
